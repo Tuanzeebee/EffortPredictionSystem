@@ -48,6 +48,7 @@ cd path/to/your/streamlit_app_directory
 Thực thi lệnh sau:
 Bash
 File web run cuối cùng của mình là FinalCodeUseAPP.py
+
 streamlit run your_script_name.py
 (Thay your_script_name.py bằng tên tệp Python của bạn).
 Ứng dụng sẽ tự động mở trong trình duyệt web của bạn.
