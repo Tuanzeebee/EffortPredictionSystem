@@ -322,7 +322,7 @@ if 'selected_ppl_v8' not in st.session_state:
 # --- Khu vực Nhập liệu Chính ---
 input_section = st.container()
 with input_section:
-    st.header("📊 Nhập Thông tin Dự án")
+    st.header("📝 Nhập Thông tin Dự án")
 
     col_basic_1, col_basic_2 = st.columns(2)
     with col_basic_1:
@@ -573,7 +573,7 @@ if results_list_runtime:
 results_section = st.container()
 with results_section:
     st.markdown("---")
-    st.header("📊 Kết Quả Ước Tính Tổng Hợp (Cập nhật trực tiếp)")
+    st.header("💡Kết Quả Ước Tính Tổng Hợp (Cập nhật trực tiếp)")
     if not st.session_state.results_summary_df.empty:
         st.dataframe(st.session_state.results_summary_df.style.format({
             'LOC': lambda x: f"{x:,.0f}" if isinstance(x, (int, float)) else str(x),
