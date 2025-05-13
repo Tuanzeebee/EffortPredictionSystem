@@ -67,7 +67,7 @@ OUTPUT_DIR = "."
 PREPROCESSOR_PATH = os.path.join(OUTPUT_DIR, "preprocessor.joblib")
 FEATURES_PATH = os.path.join(OUTPUT_DIR, "feature_names.joblib")
 MODEL_PATHS = OrderedDict([
-    ('Linear Regression', os.path.join(OUTPUT_DIR, "linear_regression_model.joblib")),
+    ('Lasso Regression', os.path.join(OUTPUT_DIR, "lasso_regression_model.joblib")),
     ('Decision Tree', os.path.join(OUTPUT_DIR, "decision_tree_model.joblib")),
     ('Random Forest', os.path.join(OUTPUT_DIR, "random_forest_model.joblib")),
     ('XGBoost', os.path.join(OUTPUT_DIR, "xgboost_model.joblib")),
