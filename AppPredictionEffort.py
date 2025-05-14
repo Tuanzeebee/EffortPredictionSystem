@@ -52,7 +52,7 @@ LANGUAGE_TO_GL_MAP = {
     # 'Khác': 'Khác'  # General fallback type
 }
 
-OUTPUT_DIR = "model"
+OUTPUT_DIR = "."
 PREPROCESSOR_PATH = os.path.join(OUTPUT_DIR, "preprocessor.joblib")
 FEATURES_PATH = os.path.join(OUTPUT_DIR, "feature_names.joblib")
 MODEL_PATHS = OrderedDict([
